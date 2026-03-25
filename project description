@@ -1,0 +1,73 @@
+# Student Record Management System (C++ with Linked List)
+
+A simple **console‑based Student Record Management System** written in **C++** using **singly linked list**. It lets you store student records (ID, name, marks, course), search, sort, delete, and even undo the last delete.
+
+***
+
+## How to Use the Code
+
+1. **Download / Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/student-record-system.git
+   cd student-record-system
+   ```
+
+2. **Make sure you have g++ (C++ compiler)**  
+   - Install it if you don’t have:
+     - Ubuntu / Linux: `sudo apt install g++`  
+     - Windows: Install MinGW or use an IDE like Code::Blocks.
+
+3. **Compile the program**
+   ```bash
+   g++ -o student_record student_record.cpp
+   ```
+
+4. **Run the program**
+   - On Linux / macOS:
+     ```bash
+     ./student_record
+     ```
+   - On Windows (if using MinGW):
+     ```bash
+     student_record.exe
+     ```
+
+5. **Use the menu**
+   After running, you will see:
+   ```text
+       --- STUDENT RECORD MANAGEMENT SYSTEM ---
+   1. Add Student
+   2. Delete Student
+   3. Search Student by ID
+   4. Display All Students
+   5. Sort Students by Marks (Descending)
+   6. Undo Last Delete
+   7. Exit
+   ```
+   - Enter `1` to add a new student (ID, name, marks, course).  
+   - Enter `2` to delete a student by ID.  
+   - Enter `3` to search a student by ID.  
+   - Enter `4` to see all students.  
+   - Enter `5` to sort students by marks (highest first).  
+   - Enter `6` to restore the last deleted student (undo).  
+   - Enter `7` to exit.
+
+***
+
+## Files
+
+- `student_record.cpp` – Main C++ source code file.  
+- `README.md` – This file (project description).
+
+***
+
+##  Purpose
+
+This project is made for **DSA practice** and shows how:
+- **Linked list** stores student records dynamically.  
+- **Stack** helps “undo” delete.  
+- **Search** and **sort** work on real data.  
+
+***
+
+अब ये तुम्हारे लिए **perfect है** — इसमें यूज़र को सीधा समझ आ जाता है कि code को डाउनलोड करके, compile करके और run करके कैसे use करना है।
